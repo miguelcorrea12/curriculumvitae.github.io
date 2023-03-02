@@ -1,0 +1,197 @@
+*body{
+    background-color: rgb(208, 204, 206);
+    border: solid black;
+ }
+  
+*{
+    box-sizing: border-box;
+     }     
+     
+     
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+.seccion {
+    height: 100vh; 
+    
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 1100px; 
+  }
+  h1 {
+    font-size: 40px; 
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    text-align: center; 
+    text-transform: uppercase; 
+    margin-top: 50px;
+    margin-bottom: 50px; 
+  }
+  header img {
+   width: 300px;
+  border-radius: 50%;
+
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(132, 213, 238); 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); 
+    z-index: 999;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    height: 50px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    text-transform: uppercase; 
+
+  }
+
+.contacto {
+    display: flex;
+    background-color: rgb(94, 124, 179);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 1050px; 
+  }
+
+  .diplomas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: 1100px;
+    
+
+  }
+ 
+ .curriculum{
+
+    display: flex;
+    background-color: rgb(224, 167, 210);
+    text-align: center; 
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    height: 1100px; 
+  }
+  .curriculum ul{
+    text-align: center; 
+    border: 2px ridge rgb(19, 8, 8); 
+    padding: 15px; 
+    margin-top: 10px;
+   background-color: aqua;
+  }
+  p{
+    font-size: 20px; 
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    text-align: center; 
+    text-transform: uppercase; 
+    margin-top: 2px;
+    margin-bottom: px; 
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .columna {
+    flex: 1;
+    margin: 20px;
+    margin-top:50px;
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 20px; 
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    text-align: center; 
+  }
+  #mapa {
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .columna2 ul li a{
+    font-size: 24px;
+    padding-right: 5px;
+  color: rgb(25, 25, 150);
+ 
+}
+h4{
+text-align: center; 
+border: 2px ridge rgb(19, 8, 8); 
+padding: 15px; 
+margin-top: 10px;
+background-color: aqua;
+
+}
